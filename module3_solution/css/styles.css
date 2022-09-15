@@ -61,15 +61,23 @@ hr {
 
 /** MAIN CONTENT **/
 
-#main-content {
-  margin : auto;
+.main-tile1, .main-tile2, .main-tile3 {
+  height: 1500px;
+  margin-bottom: 15px;
+  background-color: #215337;
+  position: relative;
 }
 
-#main-tile {
-  background-color: #277f63;
-  border-radius: 0;
-  border: 1px solid black;
-  box-shadow: #1c1216 1px 1px 1px 1px;
-  padding: 0 0 0 0;
+.main-tile1 span, .main-tile2 span, .main-tile3 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: italic;
+  text-align: center;
 }
 
+body {
+  background-color: #3f5749;
+}
